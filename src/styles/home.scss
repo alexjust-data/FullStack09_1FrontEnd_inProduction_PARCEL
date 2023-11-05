@@ -1,0 +1,47 @@
+  section#counter {
+    background-color: var(--bg-color-light);
+    padding: 3rem 0;
+  }
+
+  section#counter div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  section#counter h4 {
+    font-family: var(--header-font-family);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    margin-bottom: 2rem;
+  }
+
+  div#countdown {
+    width: 100%;
+    padding: 0 5rem;
+  }
+
+  section#counter ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  section#counter li {
+    font-family: var(--body-font-family);
+    flex: 1;
+    display: inline-block;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: var(--gold-color);
+    text-align: center;
+  }
+
+  section#counter li span {
+    display: block;
+    font-size: 3.5em;
+  }

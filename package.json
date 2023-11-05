@@ -1,0 +1,19 @@
+{
+  "name": "frontend-pro-main-parcel",
+  "version": "1.0.0",
+  "description": "Proyecto del módulo de Frontend PRO del Bootcamp de Web de KeepCoding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": [
+    ">0.2%"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.2",
+    "parcel": "^2.10.2"
+  }
+}

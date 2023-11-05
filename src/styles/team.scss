@@ -1,0 +1,40 @@
+div.teams-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  div.team {
+    width: 40%;
+    margin: 2rem;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    /* height: 320px; */
+    border-radius: .2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    div.team {
+      width: 100%;
+    }
+  }
+
+  div.team div.charactersList {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  div.team div.characterImage {
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  div.team div.characterImage img {
+    width: 100%;
+  }
