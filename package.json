@@ -2,9 +2,9 @@
   "name": "frontend-pro-main-parcel",
   "version": "1.0.0",
   "description": "Proyecto del módulo de Frontend PRO del Bootcamp de Web de KeepCoding.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/templates/* --open --https",
+    "build": "parcel build templates/* --public-url https://static.keepcoding.io"
   },
   "browserslist": [
     ">0.2%"
@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/compressor-brotli": "^2.10.2",
+    "@parcel/compressor-gzip": "^2.10.2",
     "@parcel/transformer-sass": "^2.10.2",
     "parcel": "^2.10.2"
   }
